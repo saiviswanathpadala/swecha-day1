@@ -1,0 +1,35 @@
+/* App.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Example gradient */
+    /* For solid color background, use: background-color: #yourColor; */
+  }
+  
+  .content {
+    background-color: white; /* Background color for your content */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1, h2, p {
+    margin: 10px 0;
+  }
+  
+  img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
